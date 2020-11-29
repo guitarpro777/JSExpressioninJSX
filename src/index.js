@@ -1,4 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>Hello World!</h1>, document.getElementById("root"));
+const fName = "Angela";
+const lName = "Yu";
+const num = 7;
+
+ReactDOM.render(
+  <div>
+    <h1> Hello {`${fName} ${lName}`}! </h1>
+    <p>Your lucky number is {3 + 4}</p>
+  </div>,
+
+  document.getElementById("root")
+);
